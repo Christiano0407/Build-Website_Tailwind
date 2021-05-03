@@ -17,15 +17,36 @@
         <nav role="navigation" class="flex justify-between items-center h-16 bg-gradient-to-r from-purple-700 
         to-purple-600 text-white relative">
               <a href="../public/index.html" class="pl-6 font-sans text-2xl font-bold ">TravelOne</a>
-              <div class="px-4 cursor-pointer" id="bars">Bars</div>
+              
+              <div class="px-4 cursor-pointer md:hidden " id="bars">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </div>
 
-              <div class="md:block" id="menu">
+              <div class="hidden md:block" id="menu">
                  <a href="../public/index.html" target="_blank" class="p-4">Home</a>
                  <a href="../public/index.html" target="_blank" class="p-4">About</a>
                  <a href="../public/index.html" target="_blank" class="p-4">Contact</a>
               </div>
         </nav>
     </header>
+                            <!--  Hero-section -->
+        <div class="bg-no-repeat h-screen bg-cover bg-center flex justify-center items-center" style="background-image: url(../public/images/joe-shields-dLij9K4ObYY-unsplash\ \(2\).jpg);">
+        
+        <div class="text-center font-bold">
+         <h1 class=" lg:text-8xl sm:text-6x1 text-4xl mb-10 text-purple-600 hover:text-white duration-300">
+            Choose your Travel
+         </h1>
+         <a href="#" class="text-white text-xl center transform hover:scale-110 duration-300">Explore 
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+         </a>
+        </div>
+
+        </div>
+   
 
     <script src="../public/app.js" type="modules"></script>
 </body>

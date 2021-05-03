@@ -31831,6 +31831,12 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
