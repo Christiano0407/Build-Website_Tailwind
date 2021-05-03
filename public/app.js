@@ -5,7 +5,7 @@ bars.addEventListener("click", () => {
     if(menu.classList.contains(`hidden`) && window.
     innerWidth < 768) {
         menu.classList.remove(`hidden`);
-        menu.classList.add {
+        menu.classList.add( 
             `flex`, 
             `flex-col`,
             `text-center`, 
@@ -13,17 +13,17 @@ bars.addEventListener("click", () => {
             `w-full`, 
             `absolute`,
             `top-16`
-        };
+        );
           
-        }else {
-            menu.classList.add(`hidden`);
+      }else {
+       menu.classList.add(`hidden`);
     }
 });
 
 window.addEventListener(`resize`, () => {
     if(window.innerWidth > 768) {
        menu.classList.add(`hidden`); 
-       menu.classList.remove {
+       menu.classList.remove( 
         `flex`, 
         `flex-col`,
         `text-center`, 
@@ -31,6 +31,6 @@ window.addEventListener(`resize`, () => {
         `w-full`, 
         `absolute`,
         `top-16`
-       }; 
+       ); 
     }
-})
+});
