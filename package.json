@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/Build-Website_Tailwind/issues"
   },
-  "homepage": "https://github.com/Christiano0407/Build-Website_Tailwind#readme"
+  "homepage": "https://github.com/Christiano0407/Build-Website_Tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
+  }
 }
