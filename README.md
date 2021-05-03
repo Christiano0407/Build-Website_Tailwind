@@ -11,6 +11,14 @@ Build a Website with Tailwind
 - [Heroicons](https://heroicons.com/)
 - [Tailwind-heroicons](https://github.com/tailwindlabs/heroicons)
 
+# MediaQueries
+-  'md': '768px' ( => @media (min-width: 768px) { ... })
+
+# Colors
+- bg-gradient-to-r from-purple-700 to-purple-600
+
+# Fonts
+- font-Sans
 # Images 
 
 - [Unsplash](https://unsplash.com/)
